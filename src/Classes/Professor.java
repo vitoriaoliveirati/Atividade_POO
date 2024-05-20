@@ -1,4 +1,4 @@
-package br.com.unifor.projetopoo.modelo; // package é uma boa prática escrever assim, e o package serve para criar um pacote e organizar as classes, seria o pacote raiz//
+package Classes; // package é uma boa prática escrever assim, e o package serve para criar um pacote e organizar as classes, seria o pacote raiz//
 
 public class Professor extends Pessoa {
     private String centro;
@@ -12,14 +12,10 @@ public class Professor extends Pessoa {
         return centro;
     }
     public void setCentro(String centro){
-
         this.centro = centro;
     }
 
     public void darAula(){
-        //nao sei//
+        System.out.println("O professor leciona sua aula.");
     }
-
-
-
 }

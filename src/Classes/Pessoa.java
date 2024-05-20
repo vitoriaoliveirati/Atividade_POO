@@ -1,9 +1,9 @@
-package br.com.unifor.projetopoo.modelo; // package é uma boa prática escrever assim, e o package serve para criar um pacote e organizar as classes, seria o pacote raiz//
+package Classes; // package é uma boa prática escrever assim, e o package serve para criar um pacote e organizar as classes, seria o pacote raiz//
 
 public abstract class Pessoa {
-    private String nome;
-    private String cpf;
-    private int idade;
+    public String nome;
+    public String cpf;
+    public int idade;
 
     // Construtor
     public Pessoa(String nome, String cpf, int idade) {

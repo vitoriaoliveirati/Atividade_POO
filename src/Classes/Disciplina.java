@@ -1,9 +1,9 @@
+package Classes;
 
 public class Disciplina {
     private String codigo;
     private String nomeDisciplina;
     private int semestre;
-
 
     public Disciplina(String codigo, String nomeDisciplina, int semestre) {
         this.codigo = codigo;
@@ -26,6 +26,7 @@ public class Disciplina {
     public void setCodigo(String codigo){
         this.codigo = codigo;
     }
+
     public void setNomeDisciplina(String nomeDisciplina){
         this.nomeDisciplina = nomeDisciplina;
     }
@@ -34,4 +35,3 @@ public class Disciplina {
         this.semestre = semestre;
     }
 }
-
